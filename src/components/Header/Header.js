@@ -8,26 +8,28 @@ import { Avatar } from "@mui/material";
 
 function Header() {
   return (
-    <div className='header'>
+    <div className="header-wrapper">
+      <div className='header'>
 
-        <img
-            className='header__icon'
-            src={headerIcon}
-            alt="Header Icon"
-        />
+          <img
+              className='header__icon'
+              src={headerIcon}
+              alt="Header Icon"
+          />
 
-        <div className='header__center'>
-            <input type='text'/>
-            <SearchIcon />
-        </div>
+          {/* <div className='header__center'>
+              <input type='text'/>
+              <SearchIcon />
+          </div> */}
 
-        <div className='header__right'>
-            <p>Join as a landlord</p>
-            <LanguageIcon />
-            <ExpandMoreIcon />
-            <Avatar />
-        </div>
-        
+          <div className='header__right'>
+              <p>Join as a landlord</p>
+              <LanguageIcon />
+              <ExpandMoreIcon />
+              <Avatar />
+          </div>
+          
+      </div>
     </div>
 
 

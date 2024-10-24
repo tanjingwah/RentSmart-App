@@ -1,5 +1,8 @@
 import React from 'react';
 import './Bento.css';
+import './DanglingFooter.css';
+// import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import DanglingFooter from './DanglingFooter';
 
 function Bento() {
     return (
@@ -12,23 +15,28 @@ function Bento() {
                         <div className="hero-content">
                             <div className="title-bar">
                                 <div className="yellow-bar"></div>
-                                <span className="subtitle">SUBJECT</span>
+                                <span className="subtitle">Welcome to the Future of Home Rentals in Singapore!</span>
                             </div>
                             <h1 className="hero-title">
-                                HERO TITLE
+                                FIND YOUR PERFECT HOME IN SECONDS
                             </h1>
-                            <div className="hero-footer">
-                                <button className="start-button">CTA Here</button>
-                            </div>
+                            <p className='hero-para'>
+                                Effortlessly connect with your ideal home. Our AI-powered platform matches tenants and landlords based on preferences and budget—no agents needed.
+                            </p>
+                            <DanglingFooter />
                         </div>
                     </div>
 
                     {/* How is works */}
                     <div className="bento-box training-box">
                         <div className="training-content">
+                            
+                            {/* <ArrowCircleRightIcon className="arrowIcon"/> */}
+
                             <h2 className="training-title">
-                                How is works
+                                HOW IT WORKS
                             </h2>
+
                         </div>
                     </div>
                 </div>
