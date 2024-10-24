@@ -1,0 +1,64 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to right, #191e29, #132d46);
+  }
+  
+  h1 {
+    display: flex;
+    font-size: 4rem;
+    color: #fff; /* Darker text for readability */
+    padding-bottom: 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    max-width: 157vh; /* Set a max width for the carousel */
+    height: 50vh;
+    overflow: hidden; /* Hide overflow */
+    border-radius: 20px; /* Rounded corners */
+    background: #01c38c2f
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+    width: 100%; /* Full width for slides */
+    gap: 20px;
+  }
+  
+  .slide {
+    min-width: 25%; /* Adjust this based on how many cards you want to show at once */
+    height: 40vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background: #01c38d; /* Light background for slides */
+    border-radius: 20px; /* Rounded corners for slides */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Set a fixed height for the content area */
+    text-align: center; /* Center text */
+  }
+  
+  .content-wrapper {
+    font-size: 1.5rem; /* Larger font size for the content */
+    color: #555; /* Darker gray for the content text */
+  }
+  
+  
+  
+  
+  
